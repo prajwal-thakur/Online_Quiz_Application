@@ -1,0 +1,84 @@
+/* Container styling */
+.questions-page-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading style */
+  .questions-page-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #4caf50;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Question card styling */
+  .question-card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Question text style */
+  .question-card h3 {
+    font-size: 18px;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  /* Answer options styling */
+  .question-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-card li {
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for options */
+  .question-card li:hover {
+    background-color: #d7ffd7;
+  }
+  
+  /* Selected option style */
+  .question-card li.selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Submit button hover effect */
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  

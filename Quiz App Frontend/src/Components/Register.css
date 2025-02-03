@@ -1,0 +1,136 @@
+/* Improved Register Form */
+.register-container {
+    width: 100%;
+    max-width: 480px;
+    margin: 50px auto; /* Center the form and add top/bottom margin */
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .register-container:hover {
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #495057;
+    font-weight: 500;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.25);
+  }
+  
+  select {
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:active {
+    background-color: #1e7e34;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .success-message {
+    color: #2ecc71;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .custom-dropdown select {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    width: 100%;
+    cursor: pointer;
+    transition: border 0.3s ease;
+  }
+  
+  .custom-dropdown select:hover {
+    border-color: #007bff;
+  }
+  
+  .custom-dropdown select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Mobile-friendly adjustments */
+  @media screen and (max-width: 480px) {
+    .register-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    input, select, button {
+      font-size: 14px;
+    }
+  }
+  
